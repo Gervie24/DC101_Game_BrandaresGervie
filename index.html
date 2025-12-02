@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whack-a-Mole Arcade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Arcade Frame / Background -->
+  <div class="arcade-wrapper">
+
+    <!-- Neon Title -->
+    <h1 class="arcade-title">Whack-a-Mole Arcade!</h1>
+
+    <!-- Scoreboard -->
+    <div id="score-board" class="arcade-score">
+      <span>Score: <span id="score">0</span></span>
+      <span>Time: <span id="time">30</span>s</span>
+    </div>
+
+    <!-- Game Grid -->
+    <div id="game-board" class="grid-3x3">
+      <div class="hole" data-index="0"></div>
+      <div class="hole" data-index="1"></div>
+      <div class="hole" data-index="2"></div>
+      <div class="hole" data-index="3"></div>
+      <div class="hole" data-index="4"></div>
+      <div class="hole" data-index="5"></div>
+      <div class="hole" data-index="6"></div>
+      <div class="hole" data-index="7"></div>
+      <div class="hole" data-index="8"></div>
+    </div>
+
+    <!-- Start Button -->
+    <button id="start-btn" class="arcade-button">Start Game</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
